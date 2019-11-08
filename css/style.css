@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    background: #0f0f3b;
+    color: #eee;
+    /* font-family: normal sans-serif; */
+    font-weight: 300;
+}
+
+.app {
+    margin: 5% auto;
+    text-align: center;
+    width: 400px;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px  0px 10px  5px rgba(110, 138, 223, 0.4);
+}
+
+.header {
+    font-size: 2.5em;
+    letter-spacing: 0.5em;
+    margin: 0.4em 0;
+    text-align: center;
+}
+
+input {
+    background: #030329;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1em;
+    outline: none;
+    width: 100%;
+    margin: 0.5em 0;
+    color: #cccaca;
+}
+
+input:focus {
+    box-shadow: 0px  0px 5px  2px rgba(110, 138, 223, 0.4);
+}
+
+.todos {
+    margin: 2em 0;
+}
+
+li {
+    list-style: none;
+    background: #2a2a61;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #f8e1c2;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.4em 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: all 0.5s ease-in;
+    text-transform: capitalize;
+} 
+li i {
+    opacity: 0.5;
+    transition: all 0.5s ease-in;
+    
+}
+li:hover i {
+    opacity: 1;
+    color: #ee4747;
+}
+h3 {
+    letter-spacing: 0.4em;
+}
+
+.branding {
+    text-align: center;
+    position: relative;
+}
+
+.filtered {
+    display: none;
+}
